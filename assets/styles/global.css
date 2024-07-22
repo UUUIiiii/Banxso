@@ -1,0 +1,34 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Space grotesk' ; 
+}
+h1, h2, h3, h4, h5 {
+    border-radius: 7px;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 235px;
+    height: 68px;
+    border-radius:14px;
+    padding: 20px 35px;
+    color: #FFF;
+    background-color: var(--primary-color);
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.btn:hover {
+    transition: .8s;
+    background-color: gray;
+}

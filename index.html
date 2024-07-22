@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+    <main>
+        <section class="firstSection">
+            <div class="container">
+                <h1 class="title">Lorem ipsum dolor sit amet</h1>
+                <div class="firstSection-cards">
+                    <div class="card firstCard">
+                        <div class="card-wrapper">
+                            <div class="card-title">
+                                <span class="number">1</span>
+                                <h4>Lorem ipsum dolor sit amet</h4>
+                            </div>
+                            <p class="card-description">Ut eget ullamcorper elit, sed aliquam dui. Integer rutrum venenatis elit in convallis. Ut justo libero, posuere a nibh quis, sollicitudin venenatis ipsum. Ut vestibulum quis mauris vel posuere. Pellentesque ut sem nec massa elementum ultricies. Nulla efficitur rutrum lacus, id mattis ligula</p>
+                        </div>
+                    </div>
+                    <div class="card secondCard">
+                        <div class="card-wrapper">
+                            <div class="card-title">
+                                <span>2</span>
+                                <h4>Lorem ipsum dolor sit amet</h4>
+                            </div>
+                            <p class="card-description">Ut eget ullamcorper elit, sed aliquam dui. Integer rutrum venenatis elit in convallis. Ut justo libero, posuere a nibh quis, sollicitudin venenatis ipsum. Ut vestibulum quis mauris vel posuere. Pellentesque ut sem nec massa elementum ultricies. Nulla efficitur rutrum lacus, id mattis ligula</p>
+                        </div>
+                    </div>
+                    <div class="card lastCard">
+                        <div class="card-wrapper">
+                            <div class="card-title ">
+                                <span>3</span>
+                                <h4>Lorem ipsum dolor sit amet</h4>
+                            </div>
+                            <p class="card-description">Ut eget ullamcorper elit, sed aliquam dui. Integer rutrum venenatis elit in convallis. Ut justo libero, posuere a nibh quis, sollicitudin venenatis ipsum. Ut vestibulum quis mauris vel posuere. Pellentesque ut sem nec massa elementum ultricies. Nulla efficitur rutrum lacus, id mattis ligula</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button class="btn">Lorem</button>
+                </div>
+            </div>
+        </section>
+        <section class="secondSection">
+            <div class="container">
+                <h1 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                <p class="secondSection-paragraf">Ut eget ullamcorper elit, sed aliquam dui. Integer rutrum venenatis elit in convallis. Ut justo libero, posuere a nibh quis, sollicitudin venenatis ipsum. Ut vestibulum quis mauris vel posuere. Pellentesque ut sem nec massa elementum ultricies. Nulla efficitur rutrum lacus, id mattis ligula mattis sed.</p>
+                <div class="slider">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="slide">
+                                <img src="assets/img/slider.png" alt="">
+                                <p>Lorem lorem</p>
+                                <button>Lorem ipsu</button>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="slide">
+                                <img src="assets/img/slider.png" alt="">
+                                <p>Lorem lorem</p>
+                                <button>Lorem ipsu</button>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="slide">
+                                <img src="assets/img/slider.png" alt="">
+                                <p>Lorem lorem</p>
+                                <button>Lorem ipsu</button>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="slide">
+                                <img src="assets/img/slider.png" alt="">
+                                <p>Lorem lorem</p>
+                                <button>Lorem ipsu</button>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="slide">
+                                <img src="assets/img/slider.png" alt="">
+                                <p>Lorem lorem</p>
+                                <button>Lorem ipsu</button>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="slide">
+                                <img src="assets/img/slider.png" alt="">
+                                <p>Lorem lorem</p>
+                                <button>Lorem ipsu</button>
+                            </div>
+                          </div>
+                          <div class="swiper-slide"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            // spaceBetween: 48,
+            centeredSlides: true,
+            clickable: false,
+            pagination: {
+                el: ".swiper-pagination",  
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+      },
+        });
+      </script>
+</body>
+</html>

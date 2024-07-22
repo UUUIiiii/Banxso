@@ -1,0 +1,82 @@
+.secondSection-paragraf {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+    padding-bottom: 48px;
+}
+
+  .swiper {
+    background-color: #000;
+    border-radius: 45px;
+    height: 661px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 413px !important;
+    height: 519px !important;
+    margin-top: 48px;
+    border-radius: 12px;
+    padding: 48px;
+  }
+.slide {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 12px;
+}
+  .swiper-slide img {
+    display: block;
+    margin: 12px 12px 0;
+  } 
+
+  .swiper-wrapper {
+    padding-bottom: 32px;
+  }
+
+  .swiper-slide  button{
+    border: none;
+    width: 407px;
+    height: 60px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #00D9A6;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 24px;
+}
+.mySwiper .swiper-pagination-bullet {
+    background: none;
+    background-image: url(../img/Vector2.png);
+    border-radius: 0;
+    width: 14px;
+    height: 14px;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    background: none;
+    background-image: url(../img/Vector1.png)!important;
+    border-radius: 0;
+    border: none;
+    color: none;
+    width: 14px;
+    height: 14px;
+}
+
+.swiper-button-prev {
+    width: 84px;
+    height: 84px;
+}
+
+.mySwiper .swiper-button-prev::after {
+    content: url(../img/LeftIcon.png);
+}
+
+.mySwiper .swiper-button-next::after {
+    content: url(../img/LeftIcon.png);
+    transform: rotate(180deg);
+}
